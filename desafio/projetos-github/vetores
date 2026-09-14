@@ -1,0 +1,57 @@
+#aprendendo sobre vetores
+numeros = [5,7,12,2,9,21]
+
+#printando
+print(numeros)
+
+print(numeros[0])
+print(numeros[1])
+print(numeros[2])
+print(numeros[3])
+print(numeros[4])
+print(numeros[5])
+
+#alterando valor
+numeros[1] = 17
+numeros[3] = 22
+print(numeros)
+
+numeros[2] = 1
+numeros[4] = 29
+print(numeros)
+
+#contas
+soma = numeros[5] + numeros[4]
+sub = numeros[3] - numeros[1]
+mult = numeros[0] * numeros[5]
+div = numeros[3] / numeros[2]
+print(soma,sub,mult,div)
+
+#while
+indice = 0
+while indice < 6: ##podia usar (< len(numeros))
+    print(numeros[indice]*2)
+    indice += 1
+
+#for
+for i in range(i,6,1):
+    print(numeros[i]*2)
+    indice += 1
+#jeitos diferentes
+for i in range(len(numeros)):
+    print(numeros)
+
+for valor in numeros:
+    print(valor)
+
+#desafio(incompleto)
+# winner = [10,50,30,20,11,5]
+# jogada = input("Digite seu numero: ")
+
+# while not jogada.isdigit():
+#     jogada = input("Digite seu numero: ")
+
+# jogada = int(jogada)
+
+
+

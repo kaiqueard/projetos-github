@@ -1,0 +1,10 @@
+# Seu número dados
+nome = input("Digite seu nome: ")
+cpf = int(input("digite seu número de cpf: "))
+telefone = int(input("Digite seu número de telefone: "))
+ano_de_nascimento = int(input("digite seu ano de nascimento: "))
+print("\n Dados cadastrados")
+print("Nome:", nome)
+print("CPF:", cpf)
+print("telefone:", telefone)
+print("ano de nascimento:", ano_de_nascimento)

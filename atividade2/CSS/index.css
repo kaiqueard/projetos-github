@@ -1,0 +1,43 @@
+.body {
+    background-color: aquamarine;
+}
+
+.titulo {
+    color: black;
+    background-color: brown;
+    padding: 2px;
+    width: 170px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.card-apresentacao {
+    color: white;
+    display: flex;
+    width: 99%;
+    background-color: rgb(148, 125, 125);
+    padding: 1px;
+    margin: 10px;
+    border-radius: 30px;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-colecao {
+    background-color: brown;
+    color: white;
+    width: 180px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}

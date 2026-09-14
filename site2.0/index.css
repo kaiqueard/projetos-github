@@ -1,0 +1,23 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nome {
+    padding: 5px;
+    margin: 5px;
+}
+
+.senha {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px green;
+}
+
+.btn {
+    color: black;
+    font-size: 24px;
+}

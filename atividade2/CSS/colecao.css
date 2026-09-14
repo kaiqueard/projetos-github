@@ -1,0 +1,46 @@
+.body {
+    background-color: purple;
+
+}
+
+.titulo {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+}
+
+.image {
+    width: 40%;
+}
+
+.card {
+    background-color: purple;
+    padding: 50px;
+    width: 30%;
+    margin: 10px;
+    border: 20px solid black;
+    border-radius: 10px;
+}
+
+.card-imagem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+
+}

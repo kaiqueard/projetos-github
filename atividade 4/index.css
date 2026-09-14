@@ -1,0 +1,28 @@
+body {
+    background-color: #1a252f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.inpt {
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.lbl {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
